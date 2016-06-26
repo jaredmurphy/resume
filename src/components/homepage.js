@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 let phraseList = [
   "Web Developer",
   "Musician",
-  "Philologist"
+  "Philologist",
+  "Hi i'm jared. I live on music and coffee. "
 ];
 
 export default class Homepage extends Component {

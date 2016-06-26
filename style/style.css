@@ -1,7 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway|Roboto);
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Roboto;
 }
 
 body, html, .container, .content {
@@ -32,4 +35,29 @@ body, html, .container, .content {
   vertical-align: bottom;
   font-size: 40px;
 
+}
+.resume {
+  max-width: 1000px;
+  margin: 1.5em auto;
+}
+.resume_header {
+
+
+
+  font-size: 1.5em;
+}
+
+.resume_contact td {
+  padding: 5px 30px;
+  font-size: .75em;
+  font-weight: 400;
+}
+
+.td_right {
+  padding-left: 60px;
+}
+
+.experience_description_list li{
+  list-style-type: none;
+  padding-left: 1em;
 }
