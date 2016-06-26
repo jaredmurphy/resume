@@ -25,6 +25,8 @@ export default class ResumeExperience extends Component {
           </ul>
         </div>
 
+        <button>Prior Experience</button>
+
       </div>
     );
   }

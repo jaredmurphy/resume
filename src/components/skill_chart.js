@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Bar } from "react-chartjs";
-
+import TechList from "./tech_list";
 let data = {
         labels: ["Javascript", "Ruby on Rails", "Testing", "ReactJS", "Databases", "Learning"],
         datasets: [{
@@ -24,11 +24,19 @@ let data = {
             ],
             borderWidth: 1
         }]
-    }
+};
 
-//options={chartOptions}
+let options = {
+  hover: 'label'
+}
+
 export default class SkillChart extends Component {
   render() {
-    return <Bar data={data}  width="600" height="250"/>
+    return (
+      <div>
+        <Bar data={data} options={options} width="600" height="250"/>
+        < TechList />
+      </div>
+    )
   }
 }
