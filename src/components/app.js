@@ -5,7 +5,9 @@ import Resume from './resume/resume';
 export default class App extends Component {
   render() {
     return (
-      < Resume />
+      <div>
+        { this.props.children }
+      </div>
     );
   }
 }
