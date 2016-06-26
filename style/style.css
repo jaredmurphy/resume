@@ -38,9 +38,14 @@ body, html, .container, .content {
 
 }
 .resume {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 1.5em auto;
+  padding: 20px;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
 }
+
+
 .resume_header {
 
 
