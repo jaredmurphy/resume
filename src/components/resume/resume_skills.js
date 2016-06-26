@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import SkillChart from './skill_chart';
-//const SkillChart = require("react-chartjs").Bar;
 
 
 export default class ResumeSkills extends Component {

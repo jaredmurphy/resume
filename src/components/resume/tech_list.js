@@ -7,7 +7,7 @@ export default class TechList extends Component {
         <p></p>
 
         <h1> Full List </h1>
-        <div className="seven columns tech_list">
+        <div className="eight columns tech_list">
           <h5>Production Technologies</h5>
           <hr></hr>
             <ul>
@@ -22,7 +22,7 @@ export default class TechList extends Component {
             </ul>
         </div>
 
-        <div className="five columns tech_list">
+        <div className="four columns tech_list">
           <h5>Taught</h5>
           <hr></hr>
             <ul>
