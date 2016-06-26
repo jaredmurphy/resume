@@ -8,7 +8,10 @@ export default class App extends Component {
       <div>
         < Layout />
         <br />
-        { this.props.children }
+        <div className="content">
+          { this.props.children }
+        </div>
+
       </div>
     );
   }

@@ -10,34 +10,55 @@
 body, html, .container, .content {
   width: 100%;
   height: 100%;
+
+
+
 }
 
+body {
+  background: linear-gradient(270deg, #1a71e7, #1ad7e7);
+  background-size: 400% 400%;
+  animation: backgroundFade 26s ease infinite;
+}
 
-.title {
-  padding-top: 1em;
+.nav_bar {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.2;
+  border: 1px #2e2f33;
+}
+
+.content {
+margin-top: 150px;
+
+}
+
+.home * {
+  color: #FFFFFE;
+  text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.home h1, h3, h4 {
   text-align: center;
-  font-size: 8vw;
 }
-.square {
-  width: 200px;
-  height: 200px;
-  border: 1px solid black;
-  margin: 10% auto;
-  background-color: yellow;
+.home h1 {
+  margin-top: -0.3em;
+  font-size: 7em;
 }
 
-.web {
-  margin-top: 100px;
+.home h4 {
+  font-size: 4em;
 }
 
-.square > h4 {
-  font-family: Neutra Text Bold;
-  display: inline-block;
-  vertical-align: bottom;
-  font-size: 40px;
-
+.about_button{
+  margin-bottom: -100px;
+  animation: aboutBounce 3s ease infinite;
 }
 .resume {
+  background-color: #FEFFF1;
   max-width: 1100px;
   margin: 1.5em auto;
   padding: 20px;
@@ -66,4 +87,20 @@ body, html, .container, .content {
 .experience_description_list li{
   list-style-type: none;
   padding-left: 1em;
+}
+
+/*background animation*/
+@keyframes backgroundFade {
+    0%{background-position:0% 50%}
+    50%{background-position:30% 50%}
+    100%{background-position:0% 50%}
+}
+
+@keyframes aboutBounce {
+    0%, 100% {
+    	transform: translateY(0);
+    }
+    50% {
+    	transform: translateY(-15px);
+    }
 }
