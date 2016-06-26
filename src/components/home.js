@@ -5,7 +5,7 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-        <Link to={"resume"}>Resume</Link>  
+        Home Page
       </div>
     )
   }
