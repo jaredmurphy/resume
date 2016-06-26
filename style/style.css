@@ -56,6 +56,7 @@ margin-top: 150px;
 .about_button{
   margin-bottom: -100px;
   animation: aboutBounce 3s ease infinite;
+  font-size: 2em;
 }
 .resume {
   background-color: #FEFFF1;
