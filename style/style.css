@@ -109,6 +109,11 @@ margin-top: 150px;
   padding-left: 1em;
 }
 
+
+.projectImage {
+  max-width: 300px;
+}
+
 /*background animation*/
 @keyframes backgroundFade {
     0%{background-position:0% 50%}

@@ -4,7 +4,7 @@ import App from './components/app';
 import Resume from './components/resume/resume';
 import Home from './components/home';
 import About from './components/about';
-import Portfolio from './components/portfolio';
+import Portfolio from './components/portfolio/portfolio';
 
 export default(
   <Route path="/" component={App}>
